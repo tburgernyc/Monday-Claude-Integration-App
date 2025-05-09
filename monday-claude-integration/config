@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	name = tburgernyc
+	email = t.burgernyc@gmail.com
+[remote "upstream"]
+	url = https://github.com/tburgernyc/monday-claude-integration.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "origin"]
+	url = https://github.com/tburgernyc/monday-claude-integration.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
